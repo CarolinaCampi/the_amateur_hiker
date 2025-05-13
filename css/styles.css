@@ -13,6 +13,11 @@ body {
     text-align: justify;
 }
 
+section {
+    display: grid;
+}
+
+
 /* NAVIGATION BAR */
 
 header {
@@ -22,6 +27,7 @@ header {
 }
 
 nav {
+    /* display: inline-grid; */
     margin: auto;
     width: 50%;
     text-align: center;
@@ -29,7 +35,9 @@ nav {
 
 nav ul {
     list-style-type: none;
-
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav ul li a {
