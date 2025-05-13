@@ -15,6 +15,7 @@ body {
 
 section {
     display: grid;
+    
 }
 
 
@@ -79,7 +80,11 @@ button {
 /* CONTACT */
 .socials {
     list-style-type: none;
+    display: flex;
+}
 
+.socials li {
+    padding: 0 1em;
 }
 
 
