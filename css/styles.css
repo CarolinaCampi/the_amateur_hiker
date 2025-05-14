@@ -61,7 +61,6 @@ nav ul li a {
 
 button {
     background-color: #d7211b;
-    
     border: 0;
     border-radius: 7px;
     padding: 20px;
@@ -83,6 +82,32 @@ button {
 }
 
 /* DESTINATIONS */
+
+.destinations {
+    text-align: center;
+}
+
+.destinations-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+
+    li {
+        margin: 1em;
+    }
+    
+    a {
+        color: black;
+        padding: 0.75em;
+        
+    };
+    
+}
+
+.destinations-list a:hover {
+    background-color: #d7211b;
+    color: #f4f2ec;
+}
+    
 
 
 /* CONTACT */
