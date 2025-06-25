@@ -38,14 +38,6 @@ html body {
     text-align: justify;
 }
 
-section {
-    /* margin: 0 auto; */
-    /* padding: 30px; */
-    /* max-width: 900px; */
-    /* display: grid; */
-    /* justify-content: center; */
-}
-
 a {
     text-decoration-line: none;
 }
@@ -85,12 +77,7 @@ nav ul li a:hover {
 
 /* LANDING PAGE */
 
-/* .landing-body {
-    height: 100%;
-} */
-
 .landing-container {
-    /* height: 100%; */
     margin: 0 0 20px 0;
     display: flex;
     flex-direction: column;
@@ -103,8 +90,6 @@ nav ul li a:hover {
     /* height: auto; */
     height: 75vmin;
 }
-
-
 
 .landing-container a {
     background-color: #d7211b;
@@ -120,13 +105,22 @@ nav ul li a:hover {
 
 /* ABOUT */
 
-.about-container {
+.about-layout-container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    justify-content: center;
+    text-align: center;
 }
 
-.profile {
-    padding: 10px;
+.about-container {
+    grid-column-start: 2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
+.profile-pic {
     width: 10rem;
     height: 10rem;
     object-fit: cover;
@@ -134,6 +128,7 @@ nav ul li a:hover {
     border-radius: 50%;
 
 }
+
 
 /* DESTINATIONS */
 
