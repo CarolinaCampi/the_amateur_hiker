@@ -35,7 +35,7 @@ html body {
     background-color: #f4f2ec;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 170%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 a {
@@ -105,19 +105,14 @@ nav ul li a:hover {
 
 /* ABOUT */
 
-.about-wrapper {
-    display: grid;
-    justify-content: center;
-    text-align: center;
-}
-
 .about-container {
-    grid-column-start: 2;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
 }
 
 .profile-pic {
@@ -126,14 +121,19 @@ nav ul li a:hover {
     object-fit: cover;
     /* object-position: center; */
     border-radius: 50%;
-
 }
 
 
 /* DESTINATIONS */
 
 .destinations-container {
+    margin: 30px 0;
     text-align: center;
+}
+
+.destinations-container h2 {
+    font-size: 1.75em;
+    border-bottom: 0.15em dashed #d7211b;
 }
 
 .destinations-list {
@@ -148,7 +148,6 @@ nav ul li a:hover {
         color: black;
         padding: 0.75em;
     };
-    
 }
 
 .destinations-list a:hover {
@@ -163,6 +162,7 @@ nav ul li a:hover {
 /* CONTACT */
 
 .contact-container {
+    margin: 30px 0;
     text-align: center;
 }
 
