@@ -105,7 +105,7 @@ nav ul li a:hover {
 
 /* ABOUT */
 
-.about-layout-container {
+.about-wrapper {
     display: grid;
     justify-content: center;
     text-align: center;
@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 /* DESTINATIONS */
 
-.destinations {
+.destinations-container {
     text-align: center;
 }
 
@@ -162,6 +162,10 @@ nav ul li a:hover {
 
 /* CONTACT */
 
+.contact-container {
+    text-align: center;
+}
+
 .contact-container a {
     color: black;
 }
@@ -169,12 +173,12 @@ nav ul li a:hover {
 .socials {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0;
 }
 
 .socials li {
-    /* padding: 0 1em; */
+    padding: 0 1em;
     display: inline-block;
 }
 
