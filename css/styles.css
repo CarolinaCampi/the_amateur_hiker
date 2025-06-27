@@ -40,6 +40,7 @@ html body {
 
 a {
     text-decoration-line: none;
+    color: black;
 }
 
 
@@ -133,30 +134,47 @@ nav ul li a:hover {
 
 .destinations-container h2 {
     font-size: 1.75em;
-    border-bottom: 0.15em dashed #d7211b;
+    border-bottom: 0.1em dashed #d7211b;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 
 }
 
 .destinations-list {
     list-style-type: none;
     padding-inline-start: 0;
-
-    li {
-        margin: 1em;
-    }
-    
-    a {
-        color: black;
-        padding: 0.75em;
-    };
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.destinations-list a:hover {
-    background-color: #d7211b;
-    color: #f4f2ec;
-    font-weight: bold;
-    border-radius: 7px;
+
+
+.destinations-item a:hover {
+    /* background-color: #d7211b; */
+    opacity: 0.7;
+    /* color: #f4f2ec; */
+    /* font-weight: bold; */
+    /* border-radius: 7px; */
 }
-    
+
+.destinations-item {
+    padding: 0.80em;
+    border: 0.1em solid #d7211b;
+    border-radius: 5px;
+}
+
+.destinations-item img {
+    max-width: 250px;
+}
+
+.destinations-item h4 {
+    margin: 0;
+}
+
 
 
 /* CONTACT */
@@ -164,10 +182,6 @@ nav ul li a:hover {
 .contact-container {
     margin: 30px 0;
     text-align: center;
-}
-
-.contact-container a {
-    color: black;
 }
 
 .socials {
@@ -185,7 +199,6 @@ nav ul li a:hover {
 .contact-container a:hover {
     opacity: 0.7;
 }
-
 
 
 /* BLOGS */
