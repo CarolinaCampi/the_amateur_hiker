@@ -200,12 +200,45 @@ nav ul li a:hover {
     max-width: 900px;
     margin: 0 auto;
     padding: 1.5rem;
+    text-align: justify;
+}
+
+.blog-container img {
+    width: 100%;
+}
+
+.blog-container a {
+    color: #d7211b;
+    text-decoration: underline;
+}
+
+.blog-container a:hover {
+    color: #f4f2ec;
+    background-color: #d7211b;
+    text-decoration: none;
 }
 
 .recommendation {
     /* border: solid #d7211b; */
-    color: white;
+    color: #f4f2ec;
     background-color: #d7211b;
     border-radius: 8px;
     padding: 1rem;
 }
+
+.logistics {
+    border: solid #d7211b;
+    border-radius: 8px;
+    padding: 1rem;
+
+    h5 {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    p {
+        margin: 0;
+    }
+
+}
+
