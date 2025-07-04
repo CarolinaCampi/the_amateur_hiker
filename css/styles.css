@@ -2,6 +2,10 @@
 COLOR PALETTE
 Red: #d7211b
 Cream: #f4f2ec
+
+
+gris crema: #E1DCCC
+rojo más claro: #E7443E
 */
 
 /* GLOBAL STYLES */
@@ -230,6 +234,7 @@ nav ul li a:hover {
     border: solid #d7211b;
     border-radius: 8px;
     padding: 1rem;
+    margin: 1em 0;
 
     h5 {
         margin: 0;
@@ -240,5 +245,31 @@ nav ul li a:hover {
         margin: 0;
     }
 
+    ul {
+        margin-bottom: 0;
+    }
+
+}
+
+.driving-container {
+    display: grid;
+    grid: auto-flow / repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 1em;
+}
+
+.driving-item {
+    background-color: #E1DCCC;
+    border-radius: 7px;
+    padding: 1em;
+
+    h5 {
+        font-size: 1em;
+        margin: 0;
+        padding-bottom: 1em;
+    }
+
+    p {
+        margin: 0;
+    }
 }
 
