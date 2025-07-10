@@ -242,8 +242,19 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+.blog-container h3 {
+    font-size: 1.2em;
+}
+
+.blog-container h4 {
+    font-size: 1.1em;
+}
+
+.blog-container h5 {
+    font-size: 1em;
+}
+
 .recommendation {
-    /* border: solid #d7211b; */
     color: #f4f2ec;
     background-color: #d7211b;
     border-radius: 8px;
