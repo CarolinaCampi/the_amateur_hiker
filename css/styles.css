@@ -3,6 +3,7 @@ COLOR PALETTE
 Red: #d7211b
 Cream: #f4f2ec
 
+Logo font: Instrument Sans
 
 gris crema: #E1DCCC
 rojo más claro: #E7443E
@@ -243,11 +244,11 @@ nav ul li a:hover {
 }
 
 .blog-container h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .blog-container h4 {
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 .blog-container h5 {
