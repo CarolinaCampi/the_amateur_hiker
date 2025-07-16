@@ -108,6 +108,20 @@ nav ul li a:hover {
     font-size: 1.5em;
 }
 
+/* https://a11y-guidelines.orange.com/en/articles/accessible-hiding/     */
+.visually-hidden {
+    position: absolute;
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0,0,0,0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+
 
 /* ABOUT */
 
@@ -125,7 +139,6 @@ nav ul li a:hover {
     width: 10rem;
     height: 10rem;
     object-fit: cover;
-    /* object-position: center; */
     border-radius: 50%;
 }
 
@@ -139,7 +152,7 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.destinations-container h2 {
+.destinations-container h1 {
     font-size: 1.75em;
     /* border-bottom: 0.1em dashed #d7211b; */
     max-width: 900px;
@@ -159,6 +172,8 @@ nav ul li a:hover {
     padding: 0.80em;
     border: 0.08em solid #d7211b;
     border-radius: 5px;
+    /* Ver si dejar align-self */
+    align-self: center;
 }
 
 .destinations-item a:hover {
@@ -169,8 +184,9 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.destinations-item h4 {
+.destinations-item h2 {
     margin: 0;
+    font-size: 1.1rem;
 }
 
 
@@ -268,9 +284,9 @@ nav ul li a:hover {
     padding: 1rem;
     margin: 1em 0;
 
-    h5 {
+    h3, h4, h5, h6 {
         margin: 0;
-        font-size: 1em;
+        font-size: 1.15em;
     }
 
     p {
@@ -294,8 +310,8 @@ nav ul li a:hover {
     border-radius: 8px;
     padding: 1em;
 
-    h5 {
-        font-size: 1em;
+    h3, h4, h5 {
+        font-size: 1.10em;
         margin: 0;
         padding-bottom: 1em;
     }
