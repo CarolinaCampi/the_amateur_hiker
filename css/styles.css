@@ -172,8 +172,14 @@ nav ul li a:hover {
     padding: 0.80em;
     border: 0.08em solid #d7211b;
     border-radius: 5px;
-    /* Ver si dejar align-self */
-    align-self: center;
+    /* To align the content vertically to the center */
+    display: flex;
+    align-items: center; /* aligns the items vertically */
+
+}
+
+.destinations-item-content {
+    vertical-align: middle;
 }
 
 .destinations-item a:hover {
