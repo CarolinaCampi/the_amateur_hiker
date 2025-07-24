@@ -11,7 +11,7 @@ for %%F in (*.jpg *.jpeg) do (
     magick "%%F" -auto-orient -strip "!basename!.png"
 
     :: Convert PNG to WEBP
-    cwebp "!basename!.png" -o "!basename!.webp"
+    cwebp -q 80 "!basename!.png" -o "!basename!.webp"
 
     :: Delete intermediate PNG
     del "!basename!.png"
