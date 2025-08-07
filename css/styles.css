@@ -154,7 +154,6 @@ nav ul li a:hover {
 
 .destinations-container h1 {
     font-size: 1.75em;
-    /* border-bottom: 0.1em dashed #d7211b; */
     max-width: 900px;
     padding: 0.3em;
 }
@@ -166,6 +165,8 @@ nav ul li a:hover {
     grid: auto-flow / repeat(auto-fill, minmax(250px, 1fr)); 
     gap: 0.8em;
     padding: 0 1.5rem;
+    /* For the items not to fill vertically */
+    align-items: center;
 }
 
 .destinations-item {
