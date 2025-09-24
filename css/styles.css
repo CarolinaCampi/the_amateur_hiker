@@ -283,6 +283,10 @@ nav ul li a:hover {
     background-color: #d7211b;
     border-radius: 8px;
     padding: 1rem;
+
+    a {
+        color:#f4f2ec;
+    }
 }
 
 .logistics {
