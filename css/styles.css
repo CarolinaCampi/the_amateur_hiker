@@ -166,7 +166,7 @@ nav ul li a:hover {
     gap: 0.8em;
     padding: 0 1.5rem;
     /* For the items not to fill vertically */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .destinations-item {
