@@ -182,7 +182,6 @@ nav ul li a:hover {
     /* To align the content vertically to the center */
     display: flex;
     align-items: center; /* aligns the items vertically */
-
 }
 
 .destinations-item-content {
@@ -272,6 +271,10 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+.blog-container h1 {
+    line-height: 130%;
+}
+
 .blog-container h3 {
     font-size: 1.3em;
 }
@@ -318,8 +321,9 @@ nav ul li a:hover {
 
 .phone-screenshot {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* IMPROVE THE MAX WIDTH OF PHONE SCREENSHOTS */
     max-width: 500px;
 }
 
